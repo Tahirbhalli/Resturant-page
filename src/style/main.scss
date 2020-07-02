@@ -1,4 +1,6 @@
-$bg: blue;
+$bg: white;
 body{
-    background: $bg;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

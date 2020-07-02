@@ -5,6 +5,15 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.(png|jpg|jpeg|gif)$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'url-loader',
+          },
+        ],
+      },
+      {
         test: /\.(scss|sass|css)$/,
         use: [
           'style-loader',
