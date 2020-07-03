@@ -7,7 +7,7 @@ const Footer = () => {
   foot.style.width = '100%';
   foot.style.height = 'auto';
   foot.classList = 'text-center font-weight-bold p-3';
-  foot.innerText = 'Leave a Message';
+  foot.innerText = 'Contact';
   foot.appendChild(Contact(['name', 'email', 'msg']));
   return foot;
 };
