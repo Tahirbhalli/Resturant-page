@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tahir Ahmad",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.10.4",

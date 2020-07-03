@@ -5,15 +5,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpg|jpeg|gif)$/,
-        exclude: /node_modules/,
-        use: [
-          {
-            loader: 'url-loader',
-          },
-        ],
-      },
-      {
         test: /\.(scss|sass|css)$/,
         use: [
           'style-loader',
@@ -26,6 +17,9 @@ module.exports = {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         use: {
           loader: 'file-loader',
+          options: {
+            esModule: false,
+          },
         },
       },
       {
