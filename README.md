@@ -13,7 +13,7 @@ This is A simple Resturant menu Page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/library/d7e7cd061b0291b55d95162225a92dc073f81c45/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Resturant-page/b602cf0b21d761da31dbddc177454bd68cc6c51e/dist/index.html)
 
 
 ## Authors
