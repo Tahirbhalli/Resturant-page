@@ -7,7 +7,7 @@ const App = () => {
   const div = document.createElement('div');
   div.appendChild(Navbar(['menu', 'contact', 'Location']));
   div.appendChild(Slider(['cover.jpg', 's3.jpeg', 's4.jpeg']));
-  div.appendChild(Menu([['bindi', 'b.png'], ['bindi', 'b.png'], ['bindi', 'b.png']]));
+  div.appendChild(Menu([['Chicken Kharai', 's1.jpeg'], ['khabab', 's2.jpg'], ['Makroni', 's3.jpeg']]));
   return div;
 };
 
