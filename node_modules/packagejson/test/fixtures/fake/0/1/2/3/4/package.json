@@ -1,0 +1,27 @@
+{
+  "name": "fake-packagejson",
+  "version": "1.0.0",
+  "description": "Require the package.json nearest to cwd",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameswomack/fake-packagejson.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "rme": "readme package.json > README.md",
+    "test": "mocha --harmony --inline-diffs"
+  },
+  "author": "james@womack.io",
+  "license": "ISC",
+  "devDependencies": {
+    "esprima-fb": "15001.1.0-dev-harmony-fb",
+    "is-object": "1.0.1",
+    "mocha": "2.2.5",
+    "package-json-to-readme": "1.4.1"
+  },
+  "dependencies": {
+    "amp-is-undefined": "1.0.1",
+    "is-function": "1.0.1",
+    "string-is-empty": "1.0.0"
+  }
+}
