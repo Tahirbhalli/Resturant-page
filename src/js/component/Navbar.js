@@ -3,8 +3,11 @@ const createlinks = (link) => {
   const li = document.createElement('li');
   li.classList = 'nav-item';
   const a = document.createElement('a');
-  a.classList = 'nav-link';
-  a.href = '#';
+  a.classList = 'nav-link btn';
+  a.onclick = () => {
+    const elmnt = document.getElementById(link);
+    elmnt.scrollIntoView();
+  };
   a.innerText = link;
   li.appendChild(a);
   return li;

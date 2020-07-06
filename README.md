@@ -11,6 +11,10 @@ This is A simple Resturant menu Page.
 - Javascript
 - webpack
 
+## Run
+- npm run dev
+- http://localhost/8080
+
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/Tahirbhalli/Resturant-page/b602cf0b21d761da31dbddc177454bd68cc6c51e/dist/index.html)

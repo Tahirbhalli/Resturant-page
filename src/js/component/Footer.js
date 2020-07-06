@@ -3,6 +3,7 @@ import { Contact } from './Contact';
 
 const Footer = () => {
   const foot = document.createElement('footer');
+  foot.id = 'contact';
   foot.style.background = 'orange';
   foot.style.width = '100%';
   foot.style.height = 'auto';
