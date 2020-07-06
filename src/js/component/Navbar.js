@@ -14,7 +14,7 @@ const createlinks = (link) => {
 };
 export const Navbar = (elements) => {
   const nav = document.createElement('ul');
-  nav.classList = 'nav font-weight-bold bg-dark text-capitalize';
+  nav.classList = 'nav font-weight-bold bg-dark text-capitalize sticky-top';
   nav.style = 'justify-content: center;';
   elements.forEach(element => {
     nav.appendChild(createlinks(element));
