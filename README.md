@@ -11,8 +11,9 @@ This is A simple Resturant menu Page.
 - Javascript
 - webpack
 
-## Run
+## How to Run
 - npm run dev
+- npm install package.json --save-dev
 - http://localhost/8080
 
 ## Live Demo
