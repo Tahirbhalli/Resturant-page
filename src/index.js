@@ -3,9 +3,8 @@ import './style/main.scss';
 import { Footer } from './js/component/Footer';
 
 const index = () => {
-  const main = document.querySelector('main');
+  const main = document.querySelector('#content');
   main.appendChild(App());
-  const body = document.querySelector('body');
-  body.appendChild(Footer());
+  document.body.appendChild(Footer());
 };
 index();
