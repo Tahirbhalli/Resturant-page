@@ -1,4 +1,10 @@
-import {bro} from './js/test'
-import 'bootstrap/dist/css/bootstrap.css';
-import './style/main.scss'
-console.log(bro('v'))
+import { App } from './js/App';
+import './style/main.scss';
+import { Footer } from './js/component/Footer';
+
+const index = () => {
+  const main = document.querySelector('#content');
+  main.appendChild(App());
+  document.body.appendChild(Footer());
+};
+index();
